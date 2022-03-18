@@ -1,14 +1,14 @@
 {
-    "name": "WhatsAsena",
-    "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
+    "name": "RedBlacky",
+    "description": "RedBlacky project nishen.",
+    "logo": "https://i.ibb.co/K9Sx4Cf/Red-Blacky-Logo.jpg",
     "keywords": ["whatsapp", "userbot", "Asena"],
     "repository": "https://github.com/Quiec/WhatsAsena",
     "website":   "https://quiec.tech",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "REDBLACKY_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu.",
             "required": true
         },
@@ -17,9 +17,9 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => IN, Español => ES",
+            "description": "Bot language.English => en,",
             "required": true,
-            "value": "TR"
+            "value": "EN"
         },
         "HANDLERS": {
             "description": "Komutlar için.",
